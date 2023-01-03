@@ -1,2 +1,7 @@
-package services;public class IngredientService {
+
+
+
+public interface IngredientService {
+    Ingredient addIngredient (Ingredient ingredient);
+    Ingredient getIngredient (int id);
 }
